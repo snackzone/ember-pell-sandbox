@@ -1,5 +1,8 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+{{pell-editor value=value
+  pellOptions=options
+  onChange=(action (mut value))
+}}
 
-{{outlet}}
+<hr />
+
+{{value}}
